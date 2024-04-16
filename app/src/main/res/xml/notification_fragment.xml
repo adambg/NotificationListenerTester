@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceScreen
+        app:iconSpaceReserved="true"
+        app:key="send_notification"
+        app:icon="@drawable/ic_launcher_foreground"
+        app:title="Send Notification"
+        android:summary="Click here to send push notification"/>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            app:key="pref_title"
+            android:title="Title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            app:key="pref_text"
+            android:title="Text"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="3"
+            app:entries="@array/notification_importance_entries"
+            app:entryValues="@array/notification_importance_values"
+            app:iconSpaceReserved="false"
+            app:key="pref_importance"
+            app:title="Notification Importance"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/notification_priority_entries"
+            app:entryValues="@array/notification_priority_values"
+            app:iconSpaceReserved="false"
+            app:key="pref_priority"
+            app:title="Notification Priority"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="pref_add_dismiss"
+            app:title="Add Dismiss Action" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="pref_reuse_notification_id"
+            app:title="Reuse Notification ID" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="pref_ongoing"
+            app:title="Set Ongoing" />
+
+
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            app:key="pref_group"
+            android:title="Group"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="pref_group_summary"
+            app:title="Group Summary" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="pref_silent"
+            app:title="Silent Notification" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

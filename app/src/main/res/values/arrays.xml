@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="notification_importance_entries">
+        <item>IMPORTANCE_HIGH</item>
+        <item>IMPORTANCE_DEFAULT</item>
+        <item>IMPORTANCE_LOW</item>
+        <item>IMPORTANCE_MIN</item>
+        <item>IMPORTANCE_NONE</item>
+        <item>IMPORTANCE_UNSPECIFIED</item>
+    </string-array>
+
+    <string-array name="notification_importance_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1000</item>
+    </string-array>
+
+    <string-array name="notification_priority_entries">
+        <item>PRIORITY_MAX</item>
+        <item>PRIORITY_HIGH</item>
+        <item>PRIORITY_DEFAULT</item>
+        <item>PRIORITY_LOW</item>
+        <item>PRIORITY_MIN</item>
+    </string-array>
+
+    <string-array name="notification_priority_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-1</item>
+    </string-array>
+
+</resources>
