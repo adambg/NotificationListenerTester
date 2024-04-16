@@ -9,4 +9,4 @@ This app assists Android developers who implement NotificationListener and need 
 Suitable for Android SDK 26+    
 
 ## Screenshot
-![Screenshot_1713308815](https://github.com/adambg/NotificationListenerTester/assets/640643/d0ec7bba-8f3d-4ae1-8dfa-6e0978b5abd3)
+![Screenshot_1713308815](https://github.com/adambg/NotificationListenerTester/assets/640643/d235f7ad-1a69-4466-9b6c-c9a7a8943f54)
